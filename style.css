@@ -1,0 +1,207 @@
+/*PAULA ARRIAGADA ZETA marketing.isolegal@gmail.com*/
+
+
+/*Estilo reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration:none;
+    box-sizing: border-box;
+    color: #3e637e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #3e637e;
+}
+
+li {
+    display: inline-block;
+}
+body {
+    max-width: 2000px;
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 0; /* Elimina cualquier relleno innecesario */
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
+
+
+/*estilos navbar*/
+#header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 20;
+    background: #fafafa10;
+    backdrop-filter: blur(0.3rem);
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navBar__logo {
+    width: 150px;
+}
+
+#nav-bar ul {
+    display: flex;
+    column-gap: 30px;
+    font-weight: bold;
+}
+
+/*estilos main*/
+#main {
+    width: 100%;
+    margin-top: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+    justify-content: center; /* Centrado vertical */
+    z-index: 10;
+}
+
+.main_banner{
+    padding-top: 100px;
+}
+
+.main_banner img {
+    width: 100%; /* Hace que la imagen se ajuste al 100% del ancho del contenedor */
+    max-width: 100%; /* Evita que la imagen exceda el tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/*Estilo de contenido*/
+/*SECCIÓN INICIO 1*/
+
+.tituloprincipal {
+    display: flex;
+    align-items: center;
+    justify-content:inherit;
+    margin-bottom: 3rem;
+}
+
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 1300px;
+    height: 200px;
+    margin-bottom: 3rem;
+    /*gap: 200px; espacio entre el contendio*/
+}
+
+
+.contenedor2 {
+    display: flex; /* Coloca los elementos en una fila */
+    justify-content: space-around; /* Crea espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente los elementos */
+    width: 100%; /* El contenedor ocupa todo el ancho */
+    padding: 20px 0; /* Añade un padding superior e inferior */
+}
+
+.video_presentacion {
+    flex: 1; /* Ambos elementos ocupan el mismo espacio */
+    margin: 10px; /* Espacio alrededor de cada elemento */
+    max-width: 560px; /* Limita el tamaño máximo del video */
+    margin-left: 8rem;
+}
+
+.video_presentacion iframe {
+    width: 100%; /* Asegura que el video use todo el ancho disponible */
+    height: 315px; /* Mantiene la altura fija */
+    border: none; /* Elimina el borde alrededor del iframe */
+}
+
+.texto1 {
+    flex: 1;
+    margin: 10px; /* Espacio alrededor del texto */
+    text-align: left;
+    margin-left: 4rem;
+}
+
+.texto1 h1 {
+    font-size: 2rem; /* Ajusta el tamaño del título */
+    margin-bottom: 20px; /* Añade espacio debajo del título */
+}
+
+.texto1 a.btn-1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #033e63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.vista_servicios {
+    display: flex;
+    flex-direction: column; /* Ordena los elementos en columna */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center; /* Centra el texto */
+    row-gap: 20px; /* Añade un espacio entre las filas (elementos) */
+    padding: 20px;
+}
+
+.icono {
+    color: #033e63; /* Color común para todos los íconos */
+    font-size: 4rem; /* Tamaño común para todos los íconos */
+    margin-bottom: 10px; /* Espacio debajo del ícono */
+}
+
+/*Estilos Footer*/
+#footer {
+    max-width: 100%;
+    height: auto; 
+    background-color: rgb(207, 213, 231);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*footer logo*/
+.footer-logo img {
+    width: 250px;
+    margin-left: 15%;
+    top: 10px;
+}
+
+/*footer links*/
+.footer-links ul li {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer-links-ul{
+    padding: 0;
+}
+.footer-links-ul li{
+    display: block;
+}
+
+.footer-links-autor h3 {
+    font-size: medium;
+
+}
+.footer__links-autor h4 {
+    font-size: small;
+}
+
+.footer-redes img { 
+    width: 40px;
+    padding-right: 10px;
+    text-align: left;
+}

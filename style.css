@@ -78,7 +78,6 @@ body {
 }
 
 /*Estilo de contenido*/
-/*SECCIÓN INICIO 1*/
 
 .tituloprincipal {
     display: flex;
@@ -168,12 +167,24 @@ body {
     padding-top: 100px;
     padding-left: 80px;
     padding-bottom: 80px;
+    gap: 40px;
+}
+
+.texto2 {
+    text-align: justify;
+    width: 80%;
 }
 
 .clientes {
     width: 50%;
-    position:relative;
-    padding-right: 50px;
+    display:flex;
+    align-content: center;
+    padding-right: 100px;
+}
+
+.carousel-item{
+    align-items: center;
+    max-width: 100%;
 }
 
 .clientes_texto{

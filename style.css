@@ -160,24 +160,33 @@ body {
 
 /*ESTILOS NOSOTROS*/
 
+
 .contenedor_nosotros {
+    max-width: 20000px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 100px;
-    padding-left: 80px;
-    padding-bottom: 80px;
-    gap: 40px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    gap: 10px;
 }
 
 .texto2 {
     text-align: justify;
-    width: 80%;
+    width: 100vh;
+}
+
+.titulo_clientes{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
 }
 
 .clientes {
-    width: 50%;
-    display:flex;
+    max-width: 100%;
+    /*width: 80%;*/
+    display:inline-block;
     align-content: center;
     padding-right: 100px;
 }
@@ -186,11 +195,6 @@ body {
     align-items: center;
     max-width: 100%;
 }
-
-.clientes_texto{
-    align-content: center;
-}
-
 
 /*Estilos Footer*/
 #footer {

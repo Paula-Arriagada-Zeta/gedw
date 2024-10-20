@@ -161,16 +161,24 @@ body {
 
 /*ESTILOS NOSOTROS*/
 
-.imagen__nosotros {
-    display: inline-block;
-    width: 300px;
-    max-width: 50%;
+.contenedor_nosotros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-bottom: 80px;
 }
 
+.clientes {
+    width: 50%;
+    position:relative;
+    padding-right: 50px;
+}
 
-
-
-
+.clientes_texto{
+    align-content: center;
+}
 
 
 /*Estilos Footer*/

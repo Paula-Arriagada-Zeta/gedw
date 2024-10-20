@@ -158,6 +158,21 @@ body {
     margin-bottom: 10px; /* Espacio debajo del ícono */
 }
 
+
+/*ESTILOS NOSOTROS*/
+
+.imagen__nosotros {
+    display: inline-block;
+    width: 300px;
+    max-width: 50%;
+}
+
+
+
+
+
+
+
 /*Estilos Footer*/
 #footer {
     max-width: 100%;

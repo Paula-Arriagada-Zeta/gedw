@@ -29,8 +29,8 @@ body {
 
 
 
-/*estilos navbar*/
-#header {
+/*estilos navbar CSS*/
+/*#header {
     width: 100%;
     height: 80px;
     position: fixed;
@@ -53,6 +53,56 @@ body {
     display: flex;
     column-gap: 30px;
     font-weight: bold;
+}*/
+
+
+/*NAVBAR BOOTSTRAP*/
+#header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 20;
+}
+
+.navbar-brand {
+    padding-left: 80px;
+}
+
+.navbar-toggler {
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link{
+    color: #033e63;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link.active {
+    color:#E33421;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #E33421;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link:active::before {
+    width: 100%;
+    visibility: visible;
 }
 
 /*estilos main*/

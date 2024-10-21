@@ -154,7 +154,7 @@ body {
     justify-content: space-around; /* Crea espacio entre los elementos */
     align-items: center; /* Alinea verticalmente los elementos */
     width: 100%; /* El contenedor ocupa todo el ancho */
-    padding: 20px 0; /* Añade un padding superior e inferior */
+    padding: 80px 0; /* Añade un padding superior e inferior */
 }
 
 .video_presentacion {
@@ -170,7 +170,7 @@ body {
     border: none; /* Elimina el borde alrededor del iframe */
 }
 
-.texto1 {
+.texto1, .btn-1 {
     flex: 1;
     margin: 10px; /* Espacio alrededor del texto */
     text-align: left;

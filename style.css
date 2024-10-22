@@ -249,17 +249,17 @@ body {
 
 /*ESTILO CONVERSEMOS*/
 
-.main_conversemos {
-    width: 100%;
-    margin-top: 10px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centrado horizontal */
-    justify-content: center; /* Centrado vertical */
-    z-index: 10;
+.titulo_conversemos {
+    text-align: center; 
+    width: 100%; 
+    font-size: 35px; 
+    color: #033e63; 
+    margin-bottom: 3rem; 
+    display: block; 
+    padding-top: 50px;
 }
 
+/* Ajustes de la imagen */
 .main_conversemos-picture{
     width: 100%; 
     max-width: 100%; 
@@ -267,79 +267,155 @@ body {
     padding-top: 100px;
 }
 
+/* Contenedor para el formulario y la información de contacto */
+.contact-section {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; 
+    flex-wrap: wrap; 
+}
 
-/*ESTILO FORMULARIO DE CONTACTO*/
+/* Mantén los ajustes del formulario que ya tienes */
 form {
-    padding:50px 55px;
+    padding: 30px 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     text-align: center;
-    width: 50%;
+    width: 45%; 
+    background-color: #fff; 
 }
 
-.input-group {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.titulo_conversemos {
-    color: #033e63;
-    font-size: 35;
-    display: flex;
-    align-items: center;
-    justify-content:inherit;
-    margin-bottom: 3rem;
-}
-
-label {
-    color: black;
-    font-size: 15px;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
+/* Mantén los estilos de los campos de entrada y textarea */
 input, textarea {
-    padding: 17px 25px;
-    border-radius: 25px;
-    margin-bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
     background-color: #abdecb;
-    border: 2px solid #abdecb;
+    border: 1px solid #abdecb;
     color: #033e63;
     outline: none;
 }
 
-input::placeholder, textarea::placeholder {
-    color: #abdecb;
+textarea {
+    height: 120px; 
 }
 
-.form-txt {
-    margin-bottom: 30px;
+/* Estilos para los íconos e información de contacto */
+.contact-info {
     display: flex;
+    flex-direction: column; 
     justify-content: space-between;
+    width: 45%; 
+    text-align: left; 
+    padding-left: 20px; 
+}
+
+.info-item {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+.info-item img {
+    width: 40px;
+    margin-right: 15px; 
+}
+
+/* Título secundario */
+.titulo-secundario {
     text-align: center;
+    font-size: 2rem;
+    margin-top: 50px; /* Separación del contenido anterior */
+    color: #033e63;
 }
 
-.form-txt a {
-    color:#033e63;
-    font-size: 14px;
-    font-weight: 600;
-    text-align: none;
+/* Descripción */
+.descripcion {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #666;
 }
 
+/* Botón de contacto */
 .btn_contact {
+    width: 100%;
+    padding: 15px;
     font-size: 16px;
-    color:#033e63 ;
+    color: #fff;
+    background-color: #033e63;
     border: 0;
     border-radius: 25px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .btn_contact:hover {
-    background-color: #033e63;
-    color: #fff;
+    background-color: #005a85; 
 }
 
+/* Estilos para los íconos e información de contacto */
+.contact-info {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    width: 45%; 
+    text-align: left; 
+    padding-left: 20px; 
+}
+
+/* Estilo de los íconos y texto de información */
+.info-item {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+.info-item img {
+    width: 40px; 
+    margin-right: 15px; 
+}
+
+
+/* Título secundario */
+.titulo-secundario {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px; /* Separación del contenido anterior */
+    color: #033e63;
+}
+
+/* Descripción */
+.descripcion {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #666;
+    padding-bottom: 50px;
+}
+
+/* Botón de contacto */
+.btn_contact {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #033e63;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn_contact:hover {
+    background-color: #005a85; /* Color más oscuro al pasar el mouse */
+}
 /*SOLUCIONES*/
 
 .main_soluciones-picture {
@@ -353,6 +429,8 @@ input::placeholder, textarea::placeholder {
     display: inline-block;
 
 }
+
+/*ISOLEGAL*/
 
 
 /*Estilos Footer*/

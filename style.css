@@ -349,6 +349,11 @@ input::placeholder, textarea::placeholder {
     padding-top: 100px;
 }
 
+.contenedor_soluciones {
+    display: inline-block;
+
+}
+
 
 /*Estilos Footer*/
 #footer {

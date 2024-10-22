@@ -210,7 +210,6 @@ body {
 
 /*ESTILOS NOSOTROS*/
 
-
 .contenedor_nosotros {
     max-width: 20000px;
     display: flex;
@@ -245,6 +244,111 @@ body {
     align-items: center;
     max-width: 100%;
 }
+
+
+
+/*ESTILO CONVERSEMOS*/
+
+.main_conversemos {
+    width: 100%;
+    margin-top: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+    justify-content: center; /* Centrado vertical */
+    z-index: 10;
+}
+
+.main_conversemos-picture{
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    padding-top: 100px;
+}
+
+
+/*ESTILO FORMULARIO DE CONTACTO*/
+form {
+    padding:50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.titulo_conversemos {
+    color: #033e63;
+    font-size: 35;
+    display: flex;
+    align-items: center;
+    justify-content:inherit;
+    margin-bottom: 3rem;
+}
+
+label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #abdecb;
+    border: 2px solid #abdecb;
+    color: #033e63;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #abdecb;
+}
+
+.form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-txt a {
+    color:#033e63;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: none;
+}
+
+.btn_contact {
+    font-size: 16px;
+    color:#033e63 ;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn_contact:hover {
+    background-color: #033e63;
+    color: #fff;
+}
+
+/*SOLUCIONES*/
+
+.main_soluciones-picture {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    padding-top: 100px;
+}
+
 
 /*Estilos Footer*/
 #footer {

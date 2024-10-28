@@ -1,0 +1,86 @@
+/* Ajustar el contenedor de servicios */
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    margin-bottom: 3rem;
+}
+
+/* Ajustes en la presentación de servicios */
+.vista_servicios {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.vista_servicios:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+/* Ajustes en los íconos */
+.icono {
+    font-size: 3rem;
+    color: #033e63; 
+    margin-bottom: 15px;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Asegura que los elementos estén alineados al inicio y no se solapen */
+    flex-wrap: wrap; /* Permitir que los elementos pasen a la siguiente línea en pantallas pequeñas */
+    padding: 50px 20px; /* Ajustar el padding para dar más espacio */
+    gap: 40px; /* Espacio entre el video y el texto */
+}
+
+/* Estilo para la presentación del video */
+.video_presentacion {
+    flex: 1;
+    max-width: 500px; /* Limita el tamaño máximo del video para dar más espacio al texto */
+    width: 100%; /* Asegura que el video ocupe todo el ancho disponible */
+    margin: 0 auto; /* Centra el video horizontalmente */
+}
+
+/* Ajustes del iframe del video */
+.video_presentacion iframe {
+    width: 100%; /* El video ocupa todo el ancho disponible */
+    height: auto; /* Mantener la relación de aspecto */
+    aspect-ratio: 16/9; /* Asegura que el video mantenga la proporción 16:9 */
+}
+
+/* Estilo para el contenedor de texto */
+.texto1 {
+    flex: 1;
+    max-width: 500px; /* Limita el tamaño máximo del texto */
+    width: 100%;
+    margin: 0 auto; /* Centra el texto y el botón */
+    text-align: center; /* Centra el texto */
+}
+
+/* Ajuste para el título y el botón */
+.texto1 h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.texto1 a.btn-1 {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #033e63;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.texto1 a.btn-1:hover {
+    background-color: #005a85; /* Cambia de color al pasar el mouse */
+}

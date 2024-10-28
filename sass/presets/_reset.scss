@@ -1,0 +1,25 @@
+/*Estilo reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration:none;
+    box-sizing: border-box;
+    color: #3e637e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #3e637e;
+}
+
+li {
+    display: inline-block;
+}
+body {
+    max-width: 2000px;
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 0; /* Elimina cualquier relleno innecesario */
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}

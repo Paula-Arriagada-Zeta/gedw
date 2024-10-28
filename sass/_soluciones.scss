@@ -1,0 +1,94 @@
+/*SOLUCIONES*/
+
+.main_soluciones-picture {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    padding-top: 100px;
+}
+
+/* Imagen principal en la parte superior */
+.main_soluciones-picture img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Título Principal */
+.titulo_soluciones {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color:#033e63;
+}
+
+/* Párrafo de introducción */
+.texto_soluciones{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color:#033e63;
+    max-width: 1000px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+/* Contenedor principal para las tarjetas de soluciones */
+.contenedor_soluciones {
+    display: flex;
+    justify-content: space-around; /* Distribuye las tarjetas con espacio entre ellas */
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding-bottom: 50px;
+}
+
+/* Estilo de las tarjetas */
+.card {
+    width: 18rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover para las tarjetas */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen de la tarjeta */
+.card img {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: auto;
+}
+
+/* Título de la tarjeta */
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Texto de la tarjeta */
+.card-text {
+    font-size: 1rem;
+    color:#033e63;
+    margin-bottom: 20px;
+}
+
+/* Botón de la tarjeta */
+.btn-primary {
+    background-color: #033e63;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #005a85;
+}

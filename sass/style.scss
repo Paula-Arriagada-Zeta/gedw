@@ -1,27 +1,11 @@
 /*PAULA ARRIAGADA ZETA marketing.isolegal@gmail.com*/
-
-/*estilos navbar CSS*/
-/*#header {
-    width: 100%;
-    height: 80px;
-    position: fixed;
-    z-index: 20;
-    background: #fafafa10;
-    backdrop-filter: blur(0.3rem);
-}
-
-#nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.navBar__logo {
-    width: 150px;
-}
-
-#nav-bar ul {
-    display: flex;
-    column-gap: 30px;
-    font-weight: bold;
-}*/
+@use "presets/header";
+@use "presets/main";
+@use "presets/reset";
+@use "presets/footer";
+@use "presets/queries";
+@use "presets/conversemos";
+@use "presets/isolegal";
+@use "presets/nosotros";
+@use "presets/soluciones";
+@use "presets/index";

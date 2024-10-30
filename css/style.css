@@ -94,8 +94,8 @@ li {
 body {
   max-width: 2000px;
   margin: 0 auto; /* Centra el contenido horizontalmente */
-  padding: 0; /* Elimina cualquier relleno innecesario */
-  overflow-x: hidden; /* Evita el desbordamiento horizontal */
+  padding: 0; 
+  overflow-x: hidden; 
 }
 
 /*Estilos Footer*/

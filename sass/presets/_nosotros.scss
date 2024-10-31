@@ -56,7 +56,23 @@
     padding: 0 20px;
 }
 
-.carousel-inner {
+#carouselExample {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+
+/* Controles del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    margin: auto 0;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    border-radius: 50% ;
+    width: 40px ; /* Reduzco el tamaño de los controles */
+    height: 40px ; /* Reduzco el tamaño de los controles */
+}
+
+/*.carousel-inner {
     max-width: 300px; 
     margin: 0 auto; 
 }
@@ -94,4 +110,4 @@
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
     background-color: rgba(0, 0, 0, 0.8); 
-}
+}*/

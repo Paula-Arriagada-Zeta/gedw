@@ -138,24 +138,23 @@
         margin: 0 auto; 
     }
 
-    .carousel-inner {
-        max-width: 200px; /* Limita el tamaño del contenedor a 200px para pantallas pequeñas */
-        margin: 0 auto; /* Centra el carrusel */
+    /*.carousel-inner {
+        max-width: 200px; 
+        margin: 0 auto; 
     }
 
     .carousel-item {
         align-items: center;
-        max-width: 200px; /* Limita el tamaño de los elementos del carrusel */
+        max-width: 200px; 
         margin: 0 auto;
     }
 
     .carousel-item img {
         width: 100%; 
-        max-width: 200px; /* Ajusta el tamaño de las imágenes en pantallas pequeñas */
-        height: auto;
+        max-width: 200px; 
         object-fit: contain; 
         border-radius: 10px;
-    }
+    }*/
 
     #footer {
         max-width: 100%;
@@ -347,7 +346,7 @@
         padding-bottom: 20px; 
     }
     
-    .carousel-inner {
+    /*.carousel-inner {
         max-width: 220px; 
         margin: 0 auto; 
     }
@@ -364,7 +363,7 @@
         height: auto;
         object-fit: contain; 
         border-radius: 10px;
-    }
+    }*/
 
     #footer {
         max-width: 100%;
@@ -583,16 +582,16 @@
         }
     
         /* Carrusel interno */
-        .carousel-inner {
-            max-width: 250px; /* Reduzco el tamaño máximo del carrusel */
-            margin: 0 auto; /* Centro el carrusel */
+        /*.carousel-inner {
+            max-width: 250px; 
+            margin: 0 auto; 
         }
     
-        /* Imágenes del carrusel */
+        
         .carousel-item img {
             width: 100%; 
             height: auto; 
-            max-width: 250px; /* Reduzco el tamaño máximo de las imágenes */
+            max-width: 250px; 
             margin: 0 auto; 
         }
     
@@ -605,25 +604,25 @@
     
         .carousel-item img {
             width: 100%;
-            max-width: 250px; /* Reduzco el tamaño máximo de las imágenes */
-            height: auto;
+            max-width: 250px; 
             object-fit: contain;
             border-radius: 10px;
         }
     
-        /* Controles del carrusel */
+        
         .carousel-control-prev-icon,
         .carousel-control-next-icon {
             background-color: rgba(0, 0, 0, 0.5);
             border-radius: 50%;
-            width: 40px; /* Reduzco el tamaño de los controles */
-            height: 40px; /* Reduzco el tamaño de los controles */
+            width: 40px; 
+            height: 40px; 
         }
     
         .carousel-control-prev-icon:hover,
         .carousel-control-next-icon:hover {
             background-color: rgba(0, 0, 0, 0.8);
-        }
+        }*/
+
         #footer {
             max-width: 100%;
             height: auto; 
@@ -835,7 +834,7 @@
             padding: 0 15px; 
         }
     
-        .carousel-inner {
+        /*.carousel-inner {
             max-width: 280px; 
             margin: 0 auto; 
         }
@@ -873,7 +872,8 @@
         .carousel-control-prev-icon:hover,
         .carousel-control-next-icon:hover {
             background-color: rgba(0, 0, 0, 0.8); 
-        }
+        }*/
+
         #footer {
             max-width: 100%;
             height: auto; 
@@ -1085,7 +1085,7 @@
             padding: 0 20px;
         }
     
-        .carousel-inner {
+        /*.carousel-inner {
             max-width: 280px; 
             margin: 0 auto; 
         }
@@ -1123,7 +1123,8 @@
         .carousel-control-prev-icon:hover,
         .carousel-control-next-icon:hover {
             background-color: rgba(0, 0, 0, 0.8); 
-        }
+        }*/
+
         #footer {
             max-width: 100%;
             height: auto;
@@ -1329,7 +1330,7 @@
             padding: 0 40px; 
         }
     
-        .carousel-inner {
+        /*.carousel-inner {
             max-width: 400px; 
             margin: 0 auto;
         }
@@ -1367,7 +1368,8 @@
         .carousel-control-prev-icon:hover,
         .carousel-control-next-icon:hover {
             background-color: rgba(0, 0, 0, 0.8);
-        }
+        }*/
+
         #footer {
             max-width: 100%;
             height: auto;

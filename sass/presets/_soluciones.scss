@@ -92,3 +92,551 @@
 .btn-primary:hover {
     background-color: #005a85;
 }
+
+@media (max-width: 575.98px) {
+    .main_soluciones-picture {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding-top: 50px; /* Ajuste de padding para pantallas pequeñas */
+    }
+
+    /* Imagen principal en la parte superior */
+    .main_soluciones-picture img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px; /* Reducir margen inferior */
+    }
+
+    /* Título Principal */
+    .titulo_soluciones {
+        font-size: 2rem; /* Reduce el tamaño de fuente */
+        margin-bottom: 15px;
+        color: #033e63;
+        text-align: center; /* Centra el título en pantallas pequeñas */
+    }
+
+    /* Párrafo de introducción */
+    .texto_soluciones {
+        font-size: 1rem; /* Ajusta el tamaño de la fuente */
+        line-height: 1.4;
+        color: #033e63;
+        max-width: 90%; /* Limita el ancho */
+        margin-bottom: 30px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    /* Contenedor principal para las tarjetas de soluciones */
+    .contenedor_soluciones {
+        flex-direction: column; /* Cambia a columna para mejorar la visualización */
+        align-items: center; /* Centra las tarjetas */
+        width: 100%;
+        max-width: 100%;
+        gap: 15px; /* Espacio entre las tarjetas */
+        padding-bottom: 30px;
+    }
+
+    /* Estilo de las tarjetas */
+    .card {
+        width: 90%; /* Ajusta el ancho de la tarjeta */
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Imagen de la tarjeta */
+    .card img {
+        border-radius: 8px 8px 0 0;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Título de la tarjeta */
+    .card-title {
+        font-size: 1.2rem; /* Ajusta el tamaño del título */
+        margin-bottom: 8px;
+    }
+
+    /* Texto de la tarjeta */
+    .card-text {
+        font-size: 0.9rem; /* Ajusta el tamaño del texto */
+        color: #033e63;
+        margin-bottom: 15px;
+    }
+
+    /* Botón de la tarjeta */
+    .btn-primary {
+        background-color: #033e63;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 16px; /* Ajusta el padding */
+        font-size: 0.9rem; /* Ajusta el tamaño del texto */
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #005a85;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .main_soluciones-picture {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding-top: 80px; /* Ajuste de padding para pantallas medianas */
+    }
+
+    /* Imagen principal en la parte superior */
+    .main_soluciones-picture img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px; /* Reducir margen inferior */
+    }
+
+    /* Título Principal */
+    .titulo_soluciones {
+        font-size: 2.5rem; /* Reduce el tamaño de fuente */
+        margin-bottom: 15px;
+        color: #033e63;
+        text-align: center; /* Centra el título */
+    }
+
+    /* Párrafo de introducción */
+    .texto_soluciones {
+        font-size: 1.1rem; /* Ajusta el tamaño de la fuente */
+        line-height: 1.5;
+        color: #033e63;
+        max-width: 90%; /* Limita el ancho */
+        margin-bottom: 30px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    /* Contenedor principal para las tarjetas de soluciones */
+    .contenedor_soluciones {
+        flex-direction: column; /* Cambia a columna para mejorar la visualización */
+        align-items: center; /* Centra las tarjetas */
+        width: 100%;
+        max-width: 100%;
+        gap: 15px; /* Espacio entre las tarjetas */
+        padding-bottom: 30px;
+    }
+
+    /* Estilo de las tarjetas */
+    .card {
+        width: 100%; /* Ajusta el ancho de la tarjeta */
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Imagen de la tarjeta */
+    .card img {
+        border-radius: 8px 8px 0 0;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Título de la tarjeta */
+    .card-title {
+        font-size: 1.4rem; /* Ajusta el tamaño del título */
+        margin-bottom: 8px;
+    }
+
+    /* Texto de la tarjeta */
+    .card-text {
+        font-size: 0.95rem; /* Ajusta el tamaño del texto */
+        color: #033e63;
+        margin-bottom: 15px;
+    }
+
+    /* Botón de la tarjeta */
+    .btn-primary {
+        background-color: #033e63;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 16px; /* Ajusta el padding */
+        font-size: 0.9rem; /* Ajusta el tamaño del texto */
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #005a85;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main_soluciones-picture {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding-top: 80px; /* Ajuste de padding para pantallas medianas */
+    }
+
+    /* Imagen principal en la parte superior */
+    .main_soluciones-picture img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px; /* Ajuste del margen inferior */
+    }
+
+    /* Título Principal */
+    .titulo_soluciones {
+        font-size: 2.5rem; /* Reduce el tamaño de fuente */
+        margin-bottom: 15px;
+        color: #033e63;
+        text-align: center; /* Centra el título */
+    }
+
+    /* Párrafo de introducción */
+    .texto_soluciones {
+        font-size: 1.1rem; /* Ajusta el tamaño de fuente */
+        line-height: 1.5;
+        color: #033e63;
+        max-width: 90%; /* Reduce el ancho máximo */
+        margin-bottom: 30px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    /* Contenedor principal para las tarjetas de soluciones */
+    .contenedor_soluciones {
+        flex-direction: column; /* Cambia a columna */
+        align-items: center; /* Centra las tarjetas */
+        width: 100%;
+        max-width: 100%;
+        gap: 15px; /* Espacio entre tarjetas */
+        padding-bottom: 40px;
+    }
+
+    /* Estilo de las tarjetas */
+    .card {
+        width: 100%; /* Ajusta el ancho de la tarjeta */
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Imagen de la tarjeta */
+    .card img {
+        border-radius: 8px 8px 0 0;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Título de la tarjeta */
+    .card-title {
+        font-size: 1.4rem; /* Ajusta el tamaño del título */
+        margin-bottom: 8px;
+    }
+
+    /* Texto de la tarjeta */
+    .card-text {
+        font-size: 1rem; /* Ajusta el tamaño del texto */
+        color: #033e63;
+        margin-bottom: 15px;
+    }
+
+    /* Botón de la tarjeta */
+    .btn-primary {
+        background-color: #033e63;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 16px; /* Ajuste de padding */
+        font-size: 0.9rem; /* Ajuste de tamaño de fuente */
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #005a85;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main_soluciones-picture {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding-top: 80px; /* Ajuste de padding para pantallas medianas */
+    }
+
+    /* Imagen principal en la parte superior */
+    .main_soluciones-picture img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px; /* Ajuste del margen inferior */
+    }
+
+    /* Título Principal */
+    .titulo_soluciones {
+        font-size: 2.5rem; /* Reduce el tamaño de fuente */
+        margin-bottom: 15px;
+        color: #033e63;
+        text-align: center; /* Centra el título */
+    }
+
+    /* Párrafo de introducción */
+    .texto_soluciones {
+        font-size: 1.1rem; /* Ajusta el tamaño de fuente */
+        line-height: 1.5;
+        color: #033e63;
+        max-width: 900px; /* Ajusta el ancho máximo */
+        margin-bottom: 30px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    /* Contenedor principal para las tarjetas de soluciones */
+    .contenedor_soluciones {
+        display: flex;
+        justify-content: space-around; /* Distribuye las tarjetas con espacio entre ellas */
+        align-items: flex-start;
+        width: 100%;
+        max-width: 1100px; /* Ajusta el ancho máximo */
+        gap: 15px; /* Espacio entre las tarjetas */
+        padding-bottom: 40px;
+    }
+
+    /* Estilo de las tarjetas */
+    .card {
+        width: 16rem; /* Ajusta el ancho de la tarjeta */
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Imagen de la tarjeta */
+    .card img {
+        border-radius: 8px 8px 0 0;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Título de la tarjeta */
+    .card-title {
+        font-size: 1.4rem; /* Ajusta el tamaño del título */
+        margin-bottom: 8px;
+    }
+
+    /* Texto de la tarjeta */
+    .card-text {
+        font-size: 1rem;
+        color: #033e63;
+        margin-bottom: 15px;
+    }
+
+    /* Botón de la tarjeta */
+    .btn-primary {
+        background-color: #033e63;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 16px; /* Ajuste de padding */
+        font-size: 1rem; /* Ajuste de tamaño de fuente */
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #005a85;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .main_soluciones-picture {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding-top: 80px; /* Ajuste de padding para pantallas grandes */
+    }
+
+    /* Imagen principal en la parte superior */
+    .main_soluciones-picture img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px; /* Ajuste del margen inferior */
+    }
+
+    /* Título Principal */
+    .titulo_soluciones {
+        font-size: 2.5rem; /* Reduce el tamaño de fuente */
+        margin-bottom: 15px;
+        color: #033e63;
+        text-align: center; /* Centra el título */
+    }
+
+    /* Párrafo de introducción */
+    .texto_soluciones {
+        font-size: 1.1rem; /* Ajusta el tamaño de fuente */
+        line-height: 1.5;
+        color: #033e63;
+        max-width: 900px; /* Ajusta el ancho máximo */
+        margin-bottom: 30px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    /* Contenedor principal para las tarjetas de soluciones */
+    .contenedor_soluciones {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+        max-width: 1100px; /* Ajusta el ancho máximo */
+        gap: 15px; /* Espacio entre las tarjetas */
+        padding-bottom: 40px;
+    }
+
+    /* Estilo de las tarjetas */
+    .card {
+        width: 16rem; /* Ajusta el ancho de la tarjeta */
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Imagen de la tarjeta */
+    .card img {
+        border-radius: 8px 8px 0 0;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Título de la tarjeta */
+    .card-title {
+        font-size: 1.4rem; /* Ajusta el tamaño del título */
+        margin-bottom: 8px;
+    }
+
+    /* Texto de la tarjeta */
+    .card-text {
+        font-size: 1rem;
+        color: #033e63;
+        margin-bottom: 15px;
+    }
+
+    /* Botón de la tarjeta */
+    .btn-primary {
+        background-color: #033e63;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 16px; /* Ajuste de padding */
+        font-size: 1rem; /* Ajuste de tamaño de fuente */
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #005a85;
+    }
+}
+
+@media (min-width: 1400px) {
+    .main_soluciones-picture {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding-top: 80px; /* Ajuste del padding superior para pantallas grandes */
+    }
+
+    /* Imagen principal en la parte superior */
+    .main_soluciones-picture img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    /* Título Principal */
+    .titulo_soluciones {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: #033e63;
+        text-align: center; /* Centra el título */
+    }
+
+    /* Párrafo de introducción */
+    .texto_soluciones {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        color: #033e63;
+        max-width: 1000px;
+        margin-bottom: 40px;
+        text-align: justify;
+        margin: 0 auto; /* Centra el párrafo */
+    }
+
+    /* Contenedor principal para las tarjetas de soluciones */
+    .contenedor_soluciones {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+        max-width: 1200px;
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+
+    /* Estilo de las tarjetas */
+    .card {
+        width: 20rem; /* Ajuste de ancho de las tarjetas */
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Imagen de la tarjeta */
+    .card img {
+        border-radius: 8px 8px 0 0;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Título de la tarjeta */
+    .card-title {
+        font-size: 1.6rem; /* Ajuste del tamaño de fuente del título */
+        margin-bottom: 12px;
+    }
+
+    /* Texto de la tarjeta */
+    .card-text {
+        font-size: 1rem;
+        color: #033e63;
+        margin-bottom: 20px;
+    }
+
+    /* Botón de la tarjeta */
+    .btn-primary {
+        background-color: #033e63;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #005a85;
+    }
+}

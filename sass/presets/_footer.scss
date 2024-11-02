@@ -1,49 +1,46 @@
-
-/*Estilos Footer*/
 #footer {
     max-width: 100%;
-    height: auto; 
+    height: auto;
     background-color: rgb(207, 213, 231);
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
 
-/*footer logo*/
-.footer-logo img {
-    width: 250px;
-    margin-left: 15%;
-    top: 10px;
-}
+    .footer-logo {
+        img {
+            width: 250px;
+            margin-left: 15%;
+            top: 10px;
+        }
+    }
 
-/*footer links*/
-.footer-links ul li {
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    text-align: center;
-}
+    .footer-links {
+        ul {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
 
-.footer-links-ul{
-    padding: 0;
-}
-.footer-links-ul li{
-    display: block;
-}
+            li {
+                display: block;
+                text-decoration: none;
+            }
+        }
+    }
 
-.footer-links-autor h3 {
-    font-size: medium;
+    .footer-links-autor {
+        h3 { font-size: medium; }
+        h4 { font-size: small; }
+    }
 
-}
-.footer__links-autor h4 {
-    font-size: small;
-}
-
-.footer-redes img { 
-    width: 40px;
-    padding-right: 10px;
-    text-align: left;
+    .footer-redes {
+        img {
+            width: 40px;
+            padding-right: 10px;
+            text-align: left;
+        }
+    }
 }
 

@@ -169,22 +169,24 @@ body {
   text-align: left;
 }
 
-.conversemos .titulo {
+.titulo_conversemos {
   text-align: center;
   width: 100%;
   font-size: 35px;
   color: #033e63;
   margin-bottom: 3rem;
-  padding-top: 50px;
   display: block;
+  padding-top: 50px;
 }
-.conversemos .picture {
+
+.main_conversemos-picture {
   width: 100%;
+  max-width: 100%;
   height: auto;
   padding-top: 100px;
-  max-width: 100%;
 }
-.conversemos .contact-section {
+
+.contact-section {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -193,16 +195,17 @@ body {
   max-width: 1200px;
   flex-wrap: wrap;
 }
-.conversemos .contact-section form {
-  width: 45%;
+
+form {
   padding: 30px 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  background-color: #fff;
   text-align: center;
+  width: 45%;
+  background-color: #fff;
 }
-.conversemos .contact-section form input,
-.conversemos .contact-section form textarea {
+
+input, textarea {
   width: 100%;
   padding: 15px;
   border-radius: 10px;
@@ -212,40 +215,47 @@ body {
   color: #033e63;
   outline: none;
 }
-.conversemos .contact-section form textarea {
+
+textarea {
   height: 120px;
 }
-.conversemos .contact-section .contact-info {
+
+.contact-info {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 45%;
-  padding-left: 20px;
   text-align: left;
+  padding-left: 20px;
 }
-.conversemos .contact-section .contact-info .info-item {
+
+.info-item {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
-.conversemos .contact-section .contact-info .info-item img {
+
+.info-item img {
   width: 40px;
   margin-right: 15px;
 }
-.conversemos .titulo-secundario {
+
+.titulo-secundario {
   text-align: center;
   font-size: 2rem;
-  color: #033e63;
   margin-top: 50px;
+  color: #033e63;
 }
-.conversemos .descripcion {
+
+.descripcion {
   text-align: center;
   max-width: 900px;
   margin: 0 auto;
   font-size: 1.2rem;
   color: #666;
-  padding-bottom: 50px;
 }
-.conversemos .btn_contact {
+
+.btn_contact {
   width: 100%;
   padding: 15px;
   font-size: 16px;
@@ -256,8 +266,61 @@ body {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.conversemos .btn_contact:hover {
+
+.btn_contact:hover {
   background-color: #005a85;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 45%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-item img {
+  width: 40px;
+  margin-right: 15px;
+}
+
+.titulo-secundario {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 50px; /* Separación del contenido anterior */
+  color: #033e63;
+}
+
+.descripcion {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #666;
+  padding-bottom: 50px;
+}
+
+.btn_contact {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #033e63;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn_contact:hover {
+  background-color: #005a85; /* Color más oscuro al pasar el mouse */
 }
 
 .isolegal .main-picture img {

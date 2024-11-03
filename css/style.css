@@ -708,7 +708,6 @@ textarea {
     align-items: center;
     width: 100%;
     gap: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   .icono, .card-title, .card-text {
     font-size: 1.4rem;
@@ -854,7 +853,6 @@ textarea {
     flex: 1;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     text-align: center;
     transition: all 0.3s ease;
@@ -1058,7 +1056,6 @@ textarea {
     margin: 0 10px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
   }
   .contenedor.contenedor .vista_servicios:hover, .contenedor2.contenedor .vista_servicios:hover {
@@ -1389,7 +1386,6 @@ textarea {
     flex: 1;
     text-align: center;
     margin: 0 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     transition: transform 0.3s ease;
   }
@@ -1704,7 +1700,6 @@ textarea {
     flex: 1;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
   }
   .contenedor .vista_servicios:hover,
@@ -1934,19 +1929,6 @@ textarea {
     text-align: center;
     padding-bottom: 50px;
     margin: 0 auto;
-  }
-  .contact-section .btn_contact {
-    width: 100%;
-    padding: 15px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #033e63;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  .contact-section .btn_contact:hover {
-    background-color: #005a85;
   }
   #footer {
     background-color: rgb(207, 213, 231);

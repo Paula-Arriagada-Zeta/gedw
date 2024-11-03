@@ -6,6 +6,7 @@
   height: 80px;
   position: fixed;
   z-index: 20;
+  backdrop-filter: blur(10px);
 }
 
 .navbar .navbar-brand {
@@ -326,7 +327,9 @@ textarea {
 .isolegal .main-picture img {
   width: 100%;
   height: auto;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  max-width: 100%;
+  padding-top: 100px;
 }
 .isolegal .titulo {
   font-size: 3rem;
@@ -390,7 +393,7 @@ textarea {
 }
 
 .contenedor_nosotros {
-  max-width: 1200px;
+  max-width: 1300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -631,20 +634,20 @@ textarea {
     padding: 20px;
   }
   #footer .footer-logo img, #footer .footer-redes img {
-    margin: 0 auto 10px;
+    padding: 0 auto 10px;
   }
   #footer .footer-links ul {
     padding: 0;
   }
   #footer .footer-links ul li {
     text-align: center;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
   }
   #footer .footer-links-autor h3 {
-    font-size: small;
+    font-size: 15px;
   }
   #footer .footer__links-autor h4 {
-    font-size: x-small;
+    font-size: 15px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -790,7 +793,7 @@ textarea {
     padding: 20px;
   }
   #footer .footer-logo img {
-    width: 180px;
+    width: 170px;
     margin: 0 auto 10px;
   }
   #footer .footer-links ul, #footer .footer-links-ul {
@@ -800,13 +803,13 @@ textarea {
   #footer .footer-links ul li, #footer .footer-links-ul li {
     display: block;
     text-align: center;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
   }
   #footer .footer-links-autor h3 {
-    font-size: small;
+    font-size: 15px;
   }
   #footer .footer__links-autor h4 {
-    font-size: x-small;
+    font-size: 15px;
   }
   #footer .footer-redes img {
     width: 30px;
@@ -1003,13 +1006,13 @@ textarea {
     padding: 20px;
   }
   #footer .footer-logo img {
-    width: 200px;
+    width: 180px;
   }
   #footer .footer-links ul {
     display: flex;
   }
   #footer .footer-links ul li {
-    margin: 0 10px;
+    padding: 0 10px;
   }
   #footer .footer-links-autor h3, #footer .footer__links-autor h4 {
     text-align: center;
@@ -1333,10 +1336,10 @@ textarea {
   }
   #footer .footer-links ul li {
     display: inline-block;
-    margin-right: 20px;
+    padding-right: 15px;
   }
   #footer .footer-links-autor h3, #footer .footer__links-autor h4 {
-    font-size: 1rem;
+    font-size: 15px;
   }
   #footer .footer-redes img {
     width: 35px;
@@ -1636,7 +1639,7 @@ textarea {
   }
   #footer .footer-logo img {
     width: 200px;
-    margin-right: 50px;
+    padding-right: 50px;
   }
   #footer .footer-links ul, #footer .footer-links-ul {
     display: flex;
@@ -1647,16 +1650,16 @@ textarea {
   #footer .footer-links ul li, #footer .footer-links-ul li {
     display: inline-block;
     text-align: center;
-    margin-right: 20px;
+    padding-right: 20px;
   }
   #footer .footer-links-autor h3 {
-    font-size: medium;
+    font-size: 15px;
   }
   #footer .footer__links-autor h4 {
-    font-size: small;
+    font-size: 15px;
   }
   #footer .footer-redes img {
-    width: 30px;
+    width: 40px;
     padding-right: 15px;
   }
 }
@@ -1939,8 +1942,8 @@ textarea {
     padding: 40px 20px;
   }
   #footer .footer-logo img {
-    width: 200px;
-    margin-left: 10%;
+    width: 250px;
+    padding-left: 10%;
   }
   #footer .footer-links ul,
   #footer .footer-links-ul {
@@ -1948,21 +1951,21 @@ textarea {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 15px;
     padding: 0;
   }
   #footer .footer-links ul li,
   #footer .footer-links-ul li {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
   }
   #footer .footer-links-autor h3 {
-    font-size: 1.5rem;
+    font-size: 15px;
   }
   #footer .footer__links-autor h4 {
-    font-size: 1.2rem;
+    font-size: 15px;
   }
   #footer .footer-redes img {
-    width: 50px;
+    width: 60px;
     padding-right: 20px;
   }
 }

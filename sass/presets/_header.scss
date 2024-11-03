@@ -4,6 +4,7 @@
     height: 80px;
     position: fixed;
     z-index: 20;
+    backdrop-filter: blur(10px)
 }
 
 .navbar {

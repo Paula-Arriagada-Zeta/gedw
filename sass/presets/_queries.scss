@@ -1194,7 +1194,36 @@
     }
 
     // INDEX
-    .contenedor,
+    .contenedor {
+        display: flex;
+        align-items: center;
+        justify-content: space-around; // Alineación para que los elementos se distribuyan uniformemente en la fila
+        width: 100%;
+        max-width: 1600px;
+        text-align: center;
+        gap: 20px; // Ajuste de espacio entre los elementos
+        padding: 60px 40px;
+        flex-wrap: nowrap; // Evita que los elementos salten a la siguiente línea
+    
+        .vista_servicios {
+            flex: 1;
+            max-width: 30%; // Controla el ancho de cada servicio para mantenerlos en una sola fila
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+    
+            &:hover {
+                transform: translateY(-5px);
+            }
+    
+            .icono {
+                font-size: 4rem;
+                color: #033e63;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
     .contenedor2 {
         display: flex;
         align-items: center;
@@ -1205,23 +1234,25 @@
         gap: 50px;
         padding: 60px 40px;
         flex-wrap: wrap;
-
-        .vista_servicios,
+    
         .video_presentacion,
         .texto1 {
             flex: 1;
             text-align: center;
             border-radius: 10px;
             transition: transform 0.3s ease;
-
-            &:hover { transform: translateY(-5px); }
+    
+            &:hover {
+                transform: translateY(-5px);
+            }
         }
-
-        .icono { font-size: 4rem; color: #033e63; margin-bottom: 20px; }
-
+    
         .texto1 {
-            h1 { font-size: 2rem; margin-bottom: 25px; }
-
+            h1 {
+                font-size: 2rem;
+                margin-bottom: 25px;
+            }
+    
             a.btn-1 {
                 padding: 16px 32px;
                 background-color: #033e63;
@@ -1229,8 +1260,10 @@
                 font-weight: bold;
                 border-radius: 5px;
                 transition: background-color 0.3s;
-
-                &:hover { background-color: #005a85; }
+    
+                &:hover {
+                    background-color: #005a85;
+                }
             }
         }
     }

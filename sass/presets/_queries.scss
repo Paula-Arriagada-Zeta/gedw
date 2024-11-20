@@ -938,7 +938,7 @@
   /* EXTRA LARGE PARA PANTALLAS IGUALES O MAYORES A 1200px */
     @media (min-width: 1200px) and (max-width: 1399px) {
     #main {
-        width: 90%;
+        width: 90%; 
         margin-top: 20px; 
         min-height: 100vh;
         display: flex;
@@ -947,20 +947,18 @@
         justify-content: center; 
         z-index: 10;
     }
-
+    
     .main_banner {
         padding-top: 120px; 
     }
-
+    
     .main_banner img {
         width: 90%; 
         max-width: 1200px; 
         height: auto; 
         margin: 0 auto; 
         display: block; 
-
     }
-
     .contenedor {
         display: flex;
         align-items: center;
@@ -970,30 +968,28 @@
         max-width: 1200px; 
         height: auto;
         margin-bottom: 3rem;
-        gap: 20px;
-        flex-wrap: wrap; 
     }
-
+    
     .vista_servicios {
         flex: 1;
         padding: 20px;
         text-align: center;
         border-radius: 10px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        margin: 0 10px; 
-        transition: all 0.3s ease;
-
-        &:hover {
-            transform: translateY(-5px);
-        }
+            margin: 0 10px; 
     }
-
+    
+    .vista_servicios:hover {
+        transform: translateY(-5px);
+        transition: all 0.3s ease;
+    }
+    
     .icono {
         font-size: 2.8rem; 
         color: #033e63; 
         margin-bottom: 15px;
     }
-
+    
     .contenedor2 {
         display: flex;
         justify-content: space-between;
@@ -1009,7 +1005,7 @@
         width: 100%; 
         margin: 0 auto; 
     }
-
+    
     .video_presentacion iframe {
         width: 100%; 
         height: auto; 
@@ -1028,7 +1024,7 @@
         font-size: 1.8rem;
         margin-bottom: 20px;
     }
-
+    
     .texto1 a.btn-1 {
         display: inline-block;
         padding: 12px 24px;
@@ -1038,11 +1034,10 @@
         border-radius: 5px;
         text-decoration: none;
         transition: background-color 0.3s ease;
-
-        &:hover {
-            background-color: #005a85; 
-            color: #ffffff; // Asegura buen contraste
-        }
+    }
+    
+    .texto1 a.btn-1:hover {
+        background-color: #005a85; 
     }
 
     .contenedor_nosotros {
@@ -1183,17 +1178,16 @@
         justify-content: center; 
         z-index: 10;
     }
-
+    
     .main_banner {
         padding-top: 120px; 
     }
-
+    
     .main_banner img {
         width: 100%; 
         max-width: 100%; 
-        height: auto;
+        height: auto; 
     }
-
     .contenedor {
         display: flex;
         align-items: center;
@@ -1203,28 +1197,27 @@
         max-width: 1600px; 
         height: auto;
         margin-bottom: 3rem;
-        gap: 30px; 
-        flex-wrap: wrap; 
-
+    }
+    
     .vista_servicios {
         flex: 1;
         padding: 30px;
         text-align: center;
         border-radius: 10px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease;
-
-        &:hover {
-            transform: translateY(-5px);
-        }
     }
-
+    
+    .vista_servicios:hover {
+        transform: translateY(-5px);
+        transition: all 0.3s ease;
+    }
+    
     .icono {
         font-size: 4rem; 
         color: #033e63;
         margin-bottom: 20px;
     }
-
+    
     .contenedor2 {
         display: flex;
         justify-content: space-between;
@@ -1233,20 +1226,20 @@
         padding: 60px 40px; 
         gap: 50px; 
     }
-
+    
     .video_presentacion {
         flex: 1;
         max-width: 700px; 
         width: 100%;
         margin: 0 auto;
     }
-
+    
     .video_presentacion iframe {
         width: 100%;
         height: auto;
         aspect-ratio: 16/9;
     }
-
+    
     .texto1 {
         flex: 1;
         max-width: 700px; 
@@ -1254,12 +1247,12 @@
         margin: 0 auto;
         text-align: center;
     }
-
+    
     .texto1 h1 {
         font-size: 2rem; 
         margin-bottom: 25px;
     }
-
+    
     .texto1 a.btn-1 {
         display: inline-block;
         padding: 16px 32px; 
@@ -1269,11 +1262,10 @@
         border-radius: 5px;
         text-decoration: none;
         transition: background-color 0.3s ease;
-
-        &:hover {
-            background-color: #005a85;
-            color: #ffffff; 
-        }
+    }
+    
+    .texto1 a.btn-1:hover {
+        background-color: #005a85;
     }
 
     .contenedor_nosotros {
@@ -1382,4 +1374,4 @@
         text-align: left;
     }
 }
-}
+

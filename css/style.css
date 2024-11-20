@@ -1351,8 +1351,6 @@ textarea {
     max-width: 1200px;
     height: auto;
     margin-bottom: 3rem;
-    gap: 20px;
-    flex-wrap: wrap;
   }
   .vista_servicios {
     flex: 1;
@@ -1361,10 +1359,10 @@ textarea {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 0 10px;
-    transition: all 0.3s ease;
   }
   .vista_servicios:hover {
     transform: translateY(-5px);
+    transition: all 0.3s ease;
   }
   .icono {
     font-size: 2.8rem;
@@ -1413,7 +1411,6 @@ textarea {
   }
   .texto1 a.btn-1:hover {
     background-color: #005a85;
-    color: #ffffff;
   }
   .contenedor_nosotros {
     max-width: 1150px;
@@ -1549,26 +1546,24 @@ textarea {
     max-width: 1600px;
     height: auto;
     margin-bottom: 3rem;
-    gap: 30px;
-    flex-wrap: wrap;
   }
-  .contenedor .vista_servicios {
+  .vista_servicios {
     flex: 1;
     padding: 30px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .vista_servicios:hover {
+    transform: translateY(-5px);
     transition: all 0.3s ease;
   }
-  .contenedor .vista_servicios:hover {
-    transform: translateY(-5px);
-  }
-  .contenedor .icono {
+  .icono {
     font-size: 4rem;
     color: #033e63;
     margin-bottom: 20px;
   }
-  .contenedor .contenedor2 {
+  .contenedor2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -1576,29 +1571,29 @@ textarea {
     padding: 60px 40px;
     gap: 50px;
   }
-  .contenedor .video_presentacion {
+  .video_presentacion {
     flex: 1;
     max-width: 700px;
     width: 100%;
     margin: 0 auto;
   }
-  .contenedor .video_presentacion iframe {
+  .video_presentacion iframe {
     width: 100%;
     height: auto;
     aspect-ratio: 16/9;
   }
-  .contenedor .texto1 {
+  .texto1 {
     flex: 1;
     max-width: 700px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
   }
-  .contenedor .texto1 h1 {
+  .texto1 h1 {
     font-size: 2rem;
     margin-bottom: 25px;
   }
-  .contenedor .texto1 a.btn-1 {
+  .texto1 a.btn-1 {
     display: inline-block;
     padding: 16px 32px;
     background-color: #033e63;
@@ -1608,11 +1603,10 @@ textarea {
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .contenedor .texto1 a.btn-1:hover {
+  .texto1 a.btn-1:hover {
     background-color: #005a85;
-    color: #ffffff;
   }
-  .contenedor .contenedor_nosotros {
+  .contenedor_nosotros {
     max-width: 1600px;
     display: flex;
     justify-content: space-between;
@@ -1623,37 +1617,37 @@ textarea {
     gap: 40px;
     margin: 0 auto;
   }
-  .contenedor .texto_nosotros {
+  .texto_nosotros {
     width: 60%;
     text-align: justify;
   }
-  .contenedor .texto_nosotros-titulo {
+  .texto_nosotros-titulo {
     font-size: 3rem;
     margin-bottom: 25px;
     color: #033e63;
     text-align: left;
   }
-  .contenedor .texto2 {
+  .texto2 {
     font-size: 1.3rem;
     line-height: 1.8;
     color: #005a85;
   }
-  .contenedor .banner_nosotros img {
+  .banner_nosotros img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
   }
-  .contenedor .titulo_clientes {
+  .titulo_clientes {
     display: flex;
     justify-content: center;
     padding-top: 60px;
   }
-  .contenedor .titulo_clientes h1 {
+  .titulo_clientes h1 {
     font-size: 3rem;
     margin-bottom: 30px;
     color: #033e63;
   }
-  .contenedor .clientes {
+  .clientes {
     max-width: 1600px;
     margin: 0 auto;
     display: flex;
@@ -1661,7 +1655,7 @@ textarea {
     align-items: center;
     padding: 0 40px;
   }
-  .contenedor #footer {
+  #footer {
     max-width: 100%;
     height: auto;
     background-color: rgb(207, 213, 231);
@@ -1671,12 +1665,12 @@ textarea {
     align-items: center;
     padding: 40px 20px;
   }
-  .contenedor .footer-logo img {
+  .footer-logo img {
     width: 350px;
     margin-left: 10%;
     top: 10px;
   }
-  .contenedor .footer-links ul li {
+  .footer-links ul li {
     display: block;
     flex-direction: column;
     align-items: center;
@@ -1684,20 +1678,20 @@ textarea {
     text-align: center;
     font-size: 1.2rem;
   }
-  .contenedor .footer-links-ul {
+  .footer-links-ul {
     padding: 0;
   }
-  .contenedor .footer-links-ul li {
+  .footer-links-ul li {
     display: block;
     margin-bottom: 10px;
   }
-  .contenedor .footer-links-autor h3 {
+  .footer-links-autor h3 {
     font-size: 1.5rem;
   }
-  .contenedor .footer__links-autor h4 {
+  .footer__links-autor h4 {
     font-size: 1.2rem;
   }
-  .contenedor .footer-redes img {
+  .footer-redes img {
     width: 70px;
     padding-right: 20px;
     text-align: left;

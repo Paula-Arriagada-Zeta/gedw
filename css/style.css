@@ -1479,6 +1479,66 @@ textarea {
   .menu a:hover {
     background-color: #005a85;
   }
+  .main_soluciones-picture {
+    padding-top: 80px;
+  }
+  .main_soluciones-picture img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .titulo_soluciones {
+    font-size: 2.5rem;
+    color: #033e63;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .texto_soluciones {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #033e63;
+    max-width: 900px;
+    text-align: justify;
+    margin: 0 auto 30px;
+  }
+  .contenedor_soluciones {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1100px;
+    gap: 15px;
+    padding-bottom: 40px;
+  }
+  .contenedor_soluciones .card {
+    width: 16rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .contenedor_soluciones .card img {
+    border-radius: 8px 8px 0 0;
+  }
+  .contenedor_soluciones .card .card-title {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+  }
+  .contenedor_soluciones .card .card-text {
+    font-size: 1rem;
+    color: #033e63;
+    margin-bottom: 15px;
+  }
+  .contenedor_soluciones .card .btn-primary {
+    background-color: #033e63;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .contenedor_soluciones .card .btn-primary:hover {
+    background-color: #005a85;
+  }
   #footer {
     max-width: 100%;
     height: auto;
@@ -1655,6 +1715,65 @@ textarea {
     align-items: center;
     padding: 0 40px;
   }
+  .main_soluciones-picture {
+    padding-top: 80px;
+  }
+  .main_soluciones-picture img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .titulo_soluciones {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #033e63;
+    text-align: center;
+  }
+  .texto_soluciones {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #033e63;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    text-align: justify;
+  }
+  .contenedor_soluciones {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    gap: 20px;
+    padding-bottom: 50px;
+  }
+  .contenedor_soluciones .card {
+    width: 20rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .contenedor_soluciones .card img {
+    border-radius: 8px 8px 0 0;
+  }
+  .contenedor_soluciones .card .card-title {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+  }
+  .contenedor_soluciones .card .card-text {
+    font-size: 1rem;
+    color: #033e63;
+    margin-bottom: 20px;
+  }
+  .contenedor_soluciones .card .btn-primary {
+    background-color: #033e63;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  .contenedor_soluciones .card .btn-primary:hover {
+    background-color: #005a85;
+  }
   #footer {
     max-width: 100%;
     height: auto;
@@ -1692,7 +1811,7 @@ textarea {
     font-size: 1.2rem;
   }
   .footer-redes img {
-    width: 70px;
+    width: 90px;
     padding-right: 20px;
     text-align: left;
   }
